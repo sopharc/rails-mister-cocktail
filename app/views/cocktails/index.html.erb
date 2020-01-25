@@ -1,0 +1,25 @@
+<head>
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1558383409-ab7ef8db3e01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1970&q=80);">
+    <div class="container">
+      <h1>Best cocktails in London <strong>probably</strong></h1>
+    </div>
+  </div>
+</head>
+
+<div class="row mt-4">
+  <% @cocktails.each do |cocktail| %>
+    <div class="col-4">
+      <%= link_to  cocktail_path(cocktail) do %>
+          <img src=<%= "https://source.unsplash.com/800x600/?cocktail/#{rand(50)}" %> >
+          <div class="card-infos">
+        <div class="card mb-4">
+            <h2><%= cocktail.name %></h2>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>
+
+
+
