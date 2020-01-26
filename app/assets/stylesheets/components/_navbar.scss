@@ -11,3 +11,20 @@
   width: 40px;
 }
 
+a.link_to {
+  font-size: 14px;
+  background-color: none;
+  text-decoration: none;
+  border: 0.5px solid #B8989C;
+  border-radius: 15px;
+  padding: 5px 12px;
+  text-align: center;
+  display: inline-block;
+   a:hover {
+    color: black;
+  }
+}
+
+.icon {
+  color: #B8989C;
+}
