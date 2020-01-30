@@ -7,10 +7,6 @@
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
-
 a.link_to {
   font-size: 14px;
   background-color: none;
@@ -21,10 +17,10 @@ a.link_to {
   text-align: center;
   display: inline-block;
    a:hover {
-    color: black;
+    color: #9e767b;
   }
 }
 
-.icon {
-  color: #B8989C;
+.button {
+  color: blue;
 }
